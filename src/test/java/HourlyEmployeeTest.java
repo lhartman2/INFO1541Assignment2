@@ -8,7 +8,7 @@ public class HourlyEmployeeTest {HourlyEmployee emp = new HourlyEmployee("Tony",
         emp.increaseHours(10); // Add 10 hours
         assertEquals(10, emp.getHoursWorked());
 
-        emp.increaseHours(-5); // Try adding -5 hours
+        emp.increaseHours(-5); // adding -5 hours
         assertEquals(10, emp.getHoursWorked()); // Hours worked should remain unchanged
 
 
