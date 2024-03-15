@@ -34,7 +34,9 @@ public final class CommissionEmployee extends Employee {
      */
     public void increaseSales()
     {
-        sales += 100.0;
+        if (sales>0) {
+            sales +=sales;
+        }
     }
 
     /**
@@ -43,7 +45,9 @@ public final class CommissionEmployee extends Employee {
      */
     public void increaseSales(double s)
     {
-        sales += s;
+        if (s>0) {
+            sales +=s;
+        }
     }
 
     /**
